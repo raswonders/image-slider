@@ -267,7 +267,7 @@ textarea {
   position: relative;
   margin: auto;
   border: 2px #828282 solid;
-  background-color: grey;
+  background-image: url("img/");
 }
 
 .arrowBox {
@@ -275,7 +275,10 @@ textarea {
   height: 45px;
   position: absolute;
   top: 50%;
-  background-color: black;
+}
+
+.arrowBox:hover .back {
+  display: block;
 }
 
 .right {
@@ -284,4 +287,17 @@ textarea {
 
 .left {
   left: -20px;
+}
+
+.back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.front {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
