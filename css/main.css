@@ -261,3 +261,27 @@ textarea {
   }
 }
 
+#imageBox {
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  margin: auto;
+  border: 2px #828282 solid;
+  background-color: grey;
+}
+
+.arrowBox {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  background-color: black;
+}
+
+.right {
+  right: -20px;
+}
+
+.left {
+  left: -20px;
+}
