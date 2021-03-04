@@ -266,8 +266,7 @@ textarea {
   height: 768px;
   position: relative;
   margin: auto;
-  border: 2px #828282 solid;
-  background-image: url("img/");
+  border: 6px #828282 solid;
 }
 
 .arrowBox {
@@ -289,15 +288,9 @@ textarea {
   left: -20px;
 }
 
-.back {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: none;
-}
-
-.front {
-  position: absolute;
-  left: 0;
-  top: 0;
+#image {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  display: block;
 }
