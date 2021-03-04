@@ -1,7 +1,7 @@
 let img = document.getElementById("image");
 let i = 0;
-let images = ["pic01.jpg", "pic02.jpg", "pic03.jpg", "pic04.jpg", "pic05.jpg",
-              "pic06.jpg", "pic07.jpg"];
+let images = ["model-beach.jpg", "model-desert.jpg", "model-factory.jpg", "model-flower.jpg", "model-foot.jpg",
+              "model-studio.jpg", "model-sunbath.jpg"];
 
 function updatePic(step) {
   i += step
