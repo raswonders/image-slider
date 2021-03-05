@@ -1,0 +1,7 @@
+JS
+-
+* arrays have forEach method which loops over its items while calling callback function. Uselful for iterating over
+list of elements and applying changes to them
+* adding listeners via addEventListener is most of the time more desired than doing os via HTML
+* arrow functions are useful when you need to use some adhoc function definition
+* querySelectorAll() nice way how to look up elements based on CSS selector like a class name
