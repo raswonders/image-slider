@@ -7,12 +7,12 @@ function updatePic(step) {
   i += step
   i = i % images.length;
   if (i < 0) i += images.length
-  img.setAttribute("src", "img/" + images[i])
+  img.setAttribute("src", `img/${images[i]}`)
 }
 
 
 function initPic(index) {
-  img.setAttribute("src", "img/" + images[index])
+  img.setAttribute("src", `img/${images[i]}`)
 }
 
 initPic(0);
